@@ -9,7 +9,7 @@ class Customer {
         
     }
 
-    public function sayHello($name)
+    public function sayHello(string $name = "Guest")
     {
         echo "Hello $name, my name is $this->name";
     }
